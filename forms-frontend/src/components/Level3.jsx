@@ -45,7 +45,7 @@ const Level3 = () => {
 
   useEffect(() => {
     if (values.surveyTopic) {
-      fetch(`http://localhost:5000/questions?topic=${values.surveyTopic}`)
+      fetch(`https://react-forms-assignment-n0pq.onrender.com/questions?topic=${values.surveyTopic}`)
         .then((response) => response.json())
         .then((data) => setAdditionalQuestions(data))
         .catch((error) => console.error("Error fetching questions:", error));
