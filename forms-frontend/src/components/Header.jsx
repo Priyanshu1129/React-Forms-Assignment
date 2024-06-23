@@ -6,7 +6,7 @@ const Header = () => {
 
   const getCurrentLevelName = () => {
     switch (location.pathname) {
-      case '/Level1':
+      case '/':
         return 'Level 1';
       case '/level2':
         return 'Level 2';
