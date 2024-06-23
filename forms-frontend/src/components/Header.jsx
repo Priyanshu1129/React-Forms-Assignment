@@ -4,7 +4,6 @@ import { Link, useLocation } from 'react-router-dom';
 const Header = () => {
   const location = useLocation();
 
-  // Function to get the current level name based on the route
   const getCurrentLevelName = () => {
     switch (location.pathname) {
       case '/Level1':
@@ -14,7 +13,7 @@ const Header = () => {
       case '/level3':
         return 'Level 3';
       default:
-        return 'Event Registration';
+        return 'Level 1';
     }
   };
 
