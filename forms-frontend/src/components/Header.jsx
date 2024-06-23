@@ -24,7 +24,7 @@ const Header = () => {
           {getCurrentLevelName()}
         </Typography>
         <Box>
-          <Button color="inherit" component={Link} to="/Level1">
+          <Button color="inherit" component={Link} to="/">
             Level 1
           </Button>
           <Button color="inherit" component={Link} to="/level2">
